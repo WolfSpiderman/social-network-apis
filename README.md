@@ -1,2 +1,2 @@
-# social-network-apis
+# Social Network APIs
 Sample APIs for a social media site
