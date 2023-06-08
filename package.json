@@ -1,0 +1,26 @@
+{
+  "name": "social-network-apis",
+  "version": "1.0.0",
+  "description": "Sample APIs for a social media site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "seed": "node utils/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WolfSpiderman/social-network-apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WolfSpiderman/social-network-apis/issues"
+  },
+  "homepage": "https://github.com/WolfSpiderman/social-network-apis#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
+  }
+}
