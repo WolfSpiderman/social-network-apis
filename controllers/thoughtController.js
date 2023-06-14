@@ -31,7 +31,6 @@ module.exports = {
                 { $addToSet: { thoughts: thought._id } },
                 { new: true }
             );
-            console.log(user);
 
             if (!user) {
                 return res.status(404).json({ message: 'Thought posted, but no user was found with that ID.' });
